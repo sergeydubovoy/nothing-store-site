@@ -110,7 +110,7 @@ body {
   line-height: 56px;
 }
 .white {
-  background-image: url(/resources/nothing-ear-white@2x.png);
+  background-image: url(../resources/nothing-ear-white@2x.png);
   background-size: contain;
 }
 .white::before {
@@ -140,7 +140,7 @@ body {
   left: 50px;
   top: 311px;
   border-radius: 30px;
-  background-image: url(/resources/nothing-ear-black-preview@3x.png);
+  background-image: url(../resources/nothing-ear-black-preview@3x.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50%;
@@ -169,8 +169,8 @@ body {
 .personalization {
   display: block;
   padding-top: 190px;
-  background-image: url(/resources/personalization-left@2x.png),
-    url(/resources/personalization-right@2x.png);
+  background-image: url(../resources/personalization-left@2x.png),
+    url(../resources/personalization-right@2x.png);
   width: 100%;
   background-repeat: no-repeat;
   background-size: 50%, 50%;
