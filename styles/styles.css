@@ -129,14 +129,14 @@ body {
   left: 50px;
   top: 311px;
   border-radius: 30px;
-  background-image: url(/resources/nothing-ear-white-preview@3x.png);
+  background-image: url(../resources/nothing-ear-white-preview@3x.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50%;
 }
 .black {
   border: 1px solid #ffffff;
-  background-image: url(/resources/nothing-ear-black@2x.png);
+  background-image: url(../resources/nothing-ear-black@2x.png);
   background-size: contain;
 }
 .black::before {
