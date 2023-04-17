@@ -1,0 +1,31 @@
+.personalization {
+  display: block;
+  padding-top: 190px;
+  background-image: url(../resources/personalization-left@2x.png),
+    url(../resources/personalization-right@2x.png),
+    linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%);
+  width: 100%;
+  min-height: 786px;
+  background-repeat: no-repeat;
+  background-size: 50%, 50%;
+  background-position: left, 100%;
+}
+.personalization__title {
+  margin: inherit;
+  margin-bottom: 39px;
+  width: 568px;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 74px;
+  color: #ff25c2;
+  letter-spacing: -0.03em;
+}
+.personalization__text {
+  margin: inherit;
+  margin-bottom: 39px;
+  width: 671px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+}

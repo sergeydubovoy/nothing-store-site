@@ -1,0 +1,45 @@
+.workout {
+  padding-top: 190px;
+  padding-bottom: 150px;
+}
+.workout__title {
+  margin: inherit;
+  margin-bottom: 80px;
+  width: 676px;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 74px;
+  text-align: center;
+  letter-spacing: -0.06em;
+  color: #ff25c2;
+}
+.workout__text {
+  margin: inherit;
+  margin-bottom: 80px;
+  width: 507px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.03em;
+}
+.workout__text:nth-last-child(1) {
+  margin-bottom: 0px;
+}
+.workout__circle {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: block;
+  position: relative;
+  width: 54px;
+  height: 54px;
+  background: #ff25c2;
+  border-radius: 100px;
+}
+.workout__icon {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 12px;
+  left: 15px;
+}

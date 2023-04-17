@@ -1,0 +1,32 @@
+@import "../styles/header.css";
+@import "../styles/start.css";
+@import "../styles/models.css";
+@import "../styles/phone.css";
+@import "../styles/personalization.css";
+@import "../styles/workout.css";
+@import "../styles/voice.css";
+@import "../styles/gallery.css";
+@import "../styles/footer.css";
+@import "../styles/burger.css";
+@import "../styles/buttons.css";
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  box-sizing: border-box;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1400px;
+}

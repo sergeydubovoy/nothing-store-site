@@ -1,0 +1,51 @@
+.voice {
+  padding-top: 130px;
+  padding-bottom: 130px;
+  background: url(../resources/voice@2x-v2.png);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.voice__title {
+  margin: inherit;
+  margin-bottom: 40px;
+  width: 1150px;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 74px;
+  letter-spacing: -0.06em;
+  color: #ffffff;
+}
+.voice__text {
+  margin: inherit;
+  margin-bottom: 60px;
+  width: 942px;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -0.06em;
+  color: #ffffff;
+}
+.voice__btn {
+  box-sizing: border-box;
+  margin: inherit;
+  display: block;
+  width: 866px;
+  height: 110px;
+  border-radius: 100px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  transition: all 0.3s ease;
+}
+.voice__btn:hover {
+  border: 1px solid #ff25c2;
+  color: #ff25c2;
+  transition: all 0.3s ease;
+}

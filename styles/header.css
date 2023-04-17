@@ -1,0 +1,33 @@
+.header {
+  margin-bottom: 60px;
+  width: inherit;
+}
+.header__menu {
+  margin: 0 auto;
+  margin-top: 44px;
+  margin-bottom: 60px;
+}
+.header__list {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.03em;
+}
+.header__item {
+  margin-right: 43px;
+  height: 30px;
+}
+.header__item:nth-last-child(1) {
+  margin-right: 0px;
+}
+.header__item a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+}
+.header__item a:hover {
+  color: #ff25c2;
+  transition: all 0.3s ease;
+}
